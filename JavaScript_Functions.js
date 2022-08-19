@@ -91,18 +91,18 @@
 // console.log(longestStringInArray(BookArray))
 
 //Ex 9
-// let filter = 3
-// const WordArray = ["A", "string", "of", "words"]
+let filter = 4
+const WordArray = ["A", "string", "of", "words", "Avalanche"]
 
-// const stringsLongerThan = (arr, filter)=>{
-//     console.log(arr)
-//     const Results =[]
-//     for( i = 0; i < arr.length; i++){
-//        if(arr[i].length > filter){
-//         Results.push(arr[i])
-//        }
+const stringsLongerThan = (arr, filter)=>{
+    console.log(arr)
+    const Results =[]
+    for( i = 0; i < arr.length; i++){
+       if(arr[i].length > filter){
+        Results.push(arr[i])
+       }
     
-//     }
-//     return Results
-// }
-// console.log(stringsLongerThan(WordArray, 3))
+    }
+    return Results
+}
+console.log(stringsLongerThan(WordArray, filter))
